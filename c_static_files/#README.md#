@@ -4,6 +4,7 @@
 
 (Creating and Linking Static Libraries)[https://www.youtube.com/watch?v=t5TfYRRHG04]
 
+
 1. gcc -c addNumbers.c subNumbers.c
 
 compile in file.o all c files
@@ -29,5 +30,3 @@ dire a la machine oû charger les fichiers à inclure et les lib
 or
 
 gcc doMath.c -lmath -o doMath -I include -L lib -no-pie -static
-
-
