@@ -31,3 +31,16 @@ or
 gcc doMath.c -lmath -o doMath -I include -L lib -no-pie -static
 
 
+[link](https://forums.commentcamarche.net/forum/affich-27310766-fonction-de-la-longueur-d-une-chaine-de-caractere#answers)
+
+7. reecrire une fonction _strlen
+
+Soit tu définies la fonction toi-même, soit tu calcules avec strlen, mais pas les deux à la fois. Et si tu veux que ta fonction retourne un nombre,
+int sup_car(char *S) {
+     int i=0;
+     while (*(S+i))
+     {
+          i++;
+     } 
+     return i;
+}

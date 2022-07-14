@@ -30,4 +30,3 @@ or
 
 gcc doMath.c -lmath -o doMath -I include -L lib -no-pie -static
 
-
